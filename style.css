@@ -1,0 +1,83 @@
+.container{
+
+   
+    border: none;
+
+    font-size: 16px;
+}
+*{
+    
+font-family: "poppins",sans-serif;
+}
+body{
+    background-color: #d4d4d4;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    
+    align-items: center;
+    background: #6e6060;
+}
+details summary{
+
+
+}
+details summary{
+margin: 5px;
+text-align: left;
+cursor: pointer;
+list-style: none;
+
+}
+
+.header ul{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+
+   align-items: center; 
+
+    justify-content: space-between;
+}
+.header ul a{
+   
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.addicons{
+display: inline;
+}
+:root{
+   
+   --colorpallet1: #ffabab;
+   --colorpallet2: #64df00;
+   --colorpallet3: #f01010;
+   --colorpallet4: #1bd4a6;
+   --colorpallet5: #4c2dff;
+}
+
+#history{
+
+    text-align: center;
+    font-weight: bold;
+    
+}
+#history>h2{
+
+    text-transform: capitalize;
+    
+}
+.foot ul a{
+    color: rgb(177, 0, 221);
+    font-weight: bold;
+}
+.foot ul {
+    background-color: #baff81;
+}
