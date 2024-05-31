@@ -1,11 +1,6 @@
-
-pages= document.querySelector("#pages");
-
-let num=1;
-function buttonofpage(){
-
-}
-buttonofpage()
-pages.innerHTML=`<a href="page${num}.html">page${num}<a>`
-
-
+document.addEventListener('DOMContentLoaded', function() {
+    const homeButton = document.getElementById('homeButton');
+    homeButton.addEventListener('click', function() {
+        alert('Button clicked!');
+    });
+});
